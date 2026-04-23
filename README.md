@@ -103,6 +103,20 @@ If this code helps your work, please cite the paper:
 }
 ```
 
+```bibtex
+@software{dikmen2026msifisac,
+  author    = {Dikmen, İsmail Can},
+  title     = {msif-isac: Reproduction code for 'Does Nature Know Fourier?'},
+  version   = {v1.0.0},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.19713940},
+  url       = {https://doi.org/10.5281/zenodo.19713940},
+  license   = {Apache-2.0}
+}
+```
+
+
 and, if you use neurons from the broader library:
 
 ```bibtex
