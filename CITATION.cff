@@ -11,6 +11,13 @@ authors:
 repository-code: "https://github.com/DrCanD/msif-isac"
 url: "https://github.com/DrCanD/msif-isac"
 license: Apache-2.0
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19713939
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.19713940
+    description: "v1.0.0 version-specific DOI"
 version: "0.1.0"
 date-released: 2026-04-23
 keywords:
