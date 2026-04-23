@@ -1,0 +1,24 @@
+# DroneRF configuration (Section 5.1)
+dataset:
+  name: dronerf
+  data_dir: ./data/dronerf
+  n_windows_per_file: 10
+  stride_fraction: 0.0         # 0.0 or 0.5; overlap did not change results
+
+membrane:
+  beta_m: 0.9
+  theta: 0.05
+  refr: 3
+
+neuron_kwargs:
+  baseline: {beta_m: 0.9, theta: 0.05, refr: 3}
+  dual_tau: {tau_fast: 2.0, tau_slow: 40.0, theta: 0.05, refr: 3}
+  chirp:    {f0_norm: 0.05, Q: 30.0, theta: 0.05, refr: 3}
+  phase:    {f_ref_norm: 0.0, tau: 10.0, dt_compare: 1, phi_th: 0.05, refr: 3}
+  db:       {beta_m: 0.9, theta_high: 0.05, theta_low: 0.02, refr: 3}
+  gabor:    {sigma_t: 8.0, f0_norm: 0.05, beta_m: 0.9, theta: 0.05, refr: 3}
+
+eval:
+  n_runs: 3
+  n_boot: 5000
+  protocol: multi_class

@@ -1,0 +1,29 @@
+# FMCW configuration (Section 5.1)
+dataset:
+  name: fmcw
+  data_dir: ./data/fmcw
+  frame_len: 1024
+  max_frames: null
+  pseudo_label: power          # 'power' (paper default) or 'flatness'
+  threshold_mult: 3.0          # plateau 2x..5x
+
+# Membrane parameters (per-dataset; fixed by grid search)
+membrane:
+  beta_m: 0.9
+  theta: 0.15
+  refr: 3
+
+# MS-IF feature parameters (set by biological analogy or signal physics)
+neuron_kwargs:
+  baseline: {beta_m: 0.9, theta: 0.15, refr: 3}
+  dual_tau: {tau_fast: 2.0,  tau_slow: 40.0, theta: 0.15, refr: 3}
+  chirp:    {f0_norm: 0.05,  Q: 30.0,        theta: 0.15, refr: 3}
+  phase:    {f_ref_norm: 0.0, tau: 10.0, dt_compare: 1, phi_th: 0.15, refr: 3}
+  db:       {beta_m: 0.9, theta_high: 0.15, theta_low: 0.05, refr: 3}
+  gabor:    {sigma_t: 8.0, f0_norm: 0.05, beta_m: 0.9, theta: 0.15, refr: 3}
+
+# Evaluation
+eval:
+  n_runs: 3
+  n_boot: 5000
+  protocol: two_class

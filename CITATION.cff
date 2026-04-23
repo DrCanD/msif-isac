@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "msif-isac: Reproduction code for 'Does Nature Know Fourier?'"
+message: "If this software helps your work, please cite the paper and this repository."
+type: software
+authors:
+  - given-names: "İsmail Can"
+    family-names: "Dikmen"
+    email: "can.dikmen@istinye.edu.tr"
+    affiliation: "İstinye University, Department of Electrical and Electronics Engineering"
+    orcid: "https://orcid.org/0000-0002-7747-7777"
+repository-code: "https://github.com/candikmen/msif-isac"
+url: "https://github.com/candikmen/msif-isac"
+license: Apache-2.0
+version: "0.1.0"
+date-released: 2026-04-23
+keywords:
+  - neuromorphic radar
+  - ISAC
+  - spiking neural networks
+  - FMCW
+  - echolocation
+  - bio-inspired computing
+preferred-citation:
+  type: article
+  authors:
+    - given-names: "İsmail Can"
+      family-names: "Dikmen"
+  title: "Does Nature Know Fourier? Lessons from Echolocating Species for FFT-Free Neuromorphic Radar and ISAC"
+  year: 2026
+  notes: "Manuscript under review."

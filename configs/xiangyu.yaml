@@ -1,0 +1,25 @@
+# Xiangyu raw ADC configuration (Section 5.1)
+dataset:
+  name: xiangyu
+  data_dir: ./data/xiangyu
+  chirps_per_frame: 255
+  samples_per_chirp: 128
+  frame_len: 32640
+
+membrane:
+  beta_m: 0.85
+  theta: 0.15
+  refr: 2
+
+neuron_kwargs:
+  baseline: {beta_m: 0.85, theta: 0.15, refr: 2}
+  dual_tau: {tau_fast: 4.0, tau_slow: 128.0, theta: 0.15, refr: 2}
+  chirp:    {f0_norm: 0.02, Q: 30.0, theta: 0.15, refr: 2}
+  phase:    {f_ref_norm: 0.0, tau: 32.0, dt_compare: 4, phi_th: 0.15, refr: 2}
+  db:       {beta_m: 0.85, theta_high: 0.15, theta_low: 0.05, refr: 2}
+  gabor:    {sigma_t: 12.0, f0_norm: 0.02, beta_m: 0.85, theta: 0.15, refr: 2}
+
+eval:
+  n_runs: 3
+  n_boot: 1000           # paper uses 1000 for Xiangyu due to frame length
+  protocol: multi_class
