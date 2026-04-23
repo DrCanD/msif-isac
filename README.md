@@ -120,6 +120,10 @@ Apache License 2.0. See [LICENSE](LICENSE).
 
 The Apache 2.0 license includes an explicit patent grant to users of this software. A patent application covering the TH-LIF neuron model and the MS-IF neuron family is in preparation with the Turkish Patent and Trademark Office (TÜRKPATENT). The license permits open-source use and redistribution under the terms of Apache 2.0.
 
-## Contact
+## Author
 
-İsmail Can Dikmen — Department of Electrical and Electronics Engineering, İstinye University, Istanbul, Türkiye. `can.dikmen@istinye.edu.tr` · [ORCID 0000-0002-7747-7777](https://orcid.org/0000-0002-7747-7777)
+**İsmail Can Dikmen** — Assistant Professor, Electrical and Electronics Engineering, İstinye University, Istanbul, Turkey.
+
+- ORCID: [0000-0002-7747-7777](https://orcid.org/0000-0002-7747-7777)
+- Web: [Google Scholar](https://scholar.google.com/citations?user=c4OrnOQAAAAJ&lan=en)
+- IEEE Senior Member
