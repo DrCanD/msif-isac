@@ -49,8 +49,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/candikmen/msif-isac"
-Repository = "https://github.com/candikmen/msif-isac"
+Homepage = "https://github.com/DrCanD/msif-isac"
+Repository = "https://github.com/DrCanD/msif-isac"
 Library = "https://github.com/DrCanD/dikmen-spiking-neurons"
 
 [tool.setuptools.packages.find]
