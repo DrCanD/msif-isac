@@ -1,5 +1,5 @@
 # msif-isac
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19713939.svg)](https://doi.org/10.5281/zenodo.19713939)
 Reproduction code for the paper:
 
 > Dikmen, İ. C. (2026). **Does Nature Know Fourier? Lessons from Echolocating Species for FFT-Free Neuromorphic Radar and ISAC.** *(Manuscript under review.)*
