@@ -26,7 +26,7 @@ Three real-world datasets (60 GB total):
 Python 3.10+ required. Clone the repo and install:
 
 ```bash
-git clone https://github.com/candikmen/msif-isac.git
+git clone https://github.com/DrCanD/msif-isac.git
 cd msif-isac
 pip install -e .
 ```
