@@ -125,5 +125,5 @@ The Apache 2.0 license includes an explicit patent grant to users of this softwa
 **İsmail Can Dikmen** — Assistant Professor, Electrical and Electronics Engineering, İstinye University, Istanbul, Turkey.
 
 - ORCID: [0000-0002-7747-7777](https://orcid.org/0000-0002-7747-7777)
-- Web: [Google Scholar](https://scholar.google.com/citations?user=c4OrnOQAAAAJ&lan=en)
+- Web: [Google Scholar](https://scholar.google.com/citations?user=c4OrnOQAAAAJ)
 - IEEE Senior Member
